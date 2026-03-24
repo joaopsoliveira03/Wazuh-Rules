@@ -81,14 +81,6 @@ check_dependencies() {
     logger "Git package found. Continuing..."
 }
 
-# Check system architecture
-check_architecture() {
-    if [[ "$(uname -m)" != "x86_64" ]]; then
-        logger -e "Incompatible system. This script must be run on a 64-bit system."
-        exit 1
-    fi
-}
-
 # Restart service with appropriate method
 restart_service() {
     local service_name="$1"
