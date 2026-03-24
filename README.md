@@ -130,7 +130,7 @@ _You can either manually download the .xml rule files onto your Wazuh Manager or
 1. Become Root User
 2. Run the Script
    ```sh
-   curl -so ~/wazuh_socfortress_rules.sh https://raw.githubusercontent.com/socfortress/Wazuh-Rules/main/wazuh_socfortress_rules.sh && bash ~/wazuh_socfortress_rules.sh
+   curl -so ~/wazuh_socfortress_rules.sh https://github.com/joaopsoliveira03/Wazuh-Rules/raw/refs/heads/main/wazuh_socfortress_rules.sh && bash ~/wazuh_socfortress_rules.sh
    ```
 
 ![Alt Text](https://github.com/socfortress/Wazuh-Rules/blob/main/images/run%20install.gif)
