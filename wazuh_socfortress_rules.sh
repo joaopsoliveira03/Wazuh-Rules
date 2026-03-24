@@ -241,7 +241,6 @@ main() {
     
     # Run installation
     check_dependencies
-    check_architecture
     clone_rules
     health_check
     
